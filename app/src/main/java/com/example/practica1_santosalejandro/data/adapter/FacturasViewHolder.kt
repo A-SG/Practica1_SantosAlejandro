@@ -1,8 +1,9 @@
-package com.example.practica1_santosalejandro
+package com.example.practica1_santosalejandro.data.adapter
 
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
+import com.example.practica1_santosalejandro.data.model.Factura
 import com.example.practica1_santosalejandro.databinding.ItemFacturaBinding
 
 class FacturasViewHolder (view: View): RecyclerView.ViewHolder(view) {

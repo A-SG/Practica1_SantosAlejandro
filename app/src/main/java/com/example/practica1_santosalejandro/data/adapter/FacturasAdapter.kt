@@ -1,8 +1,10 @@
-package com.example.practica1_santosalejandro
+package com.example.practica1_santosalejandro.data.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.practica1_santosalejandro.R
+import com.example.practica1_santosalejandro.data.model.Factura
 
 class FacturasAdapter(var  facturas: List<Factura>): RecyclerView.Adapter<FacturasViewHolder>(){
 
