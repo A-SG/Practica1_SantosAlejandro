@@ -20,6 +20,7 @@ class FacturasAdapter(var  facturas: List<Factura>): RecyclerView.Adapter<Factur
     override fun onBindViewHolder(holder: FacturasViewHolder, position: Int) {
         val item = facturas[position]
         holder.bind(item)
+
     }
 
 
